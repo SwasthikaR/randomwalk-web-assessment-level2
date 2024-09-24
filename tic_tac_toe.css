@@ -1,0 +1,126 @@
+body{
+    background-color: #26033d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    text-align: center;
+    color: #72cefb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.turnbox{
+    width: 170px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.box{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bg{
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 20px;
+    width: 82px;
+    height: 40px;
+    background-color: #72cefb;
+    z-index: -1;
+}
+
+.score{
+    text-align: center;
+}
+
+.score_x, .score_x1{
+    display: inline;
+    color: #72cefb;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.score_o, .score_o1{
+    display: inline;
+    color: #dcbf3c;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.game_grid{
+    width: 20%;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center;
+}
+
+.grid_box{
+    border-radius: 8px;
+    width: 50px;
+    height: 45px;
+    padding: 30px;
+    text-align: center;
+    background-color: #3e1559;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.win{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.win h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.play_again{
+    text-align: center;
+}
+
+.play_again button{
+    background-color: #24cb21;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.play_again button:hover{
+    color: #24cb21;
+    background-color: white;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.play_again button p{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
